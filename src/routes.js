@@ -5,6 +5,7 @@ import Contatos from './Pages/Contatos';
 import Home from './Pages/Home';
 import Servicos from './Pages/Servicos';
 import SobreNos from './Pages/SobreNos';
+import {Caixona} from './Pages/Caixona';
 
 /*BR: ajuda na parte de troca de telas
 R: vai ser renderizado
@@ -20,6 +21,7 @@ const Routes = () => {
                 <Route exact path="/serviços" component={Servicos} />
                 <Route exact path="/blog" component={Blog} />
                 <Route exact path="/sobre-nos" component={SobreNos} />
+                <Route exact path="/sandbox" component={Caixona} />
             </Switch>
         </BrowserRouter>
     )
